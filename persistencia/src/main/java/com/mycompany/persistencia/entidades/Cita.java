@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 /**
  * Entidad que representa una cita medica en el sistema.
  *
- * @author devor
+ * @author dylan
  */
 public class Cita {
 

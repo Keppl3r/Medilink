@@ -7,7 +7,7 @@ package com.mycompany.persistencia.entidades;
 /**
  * Entidad que representa a un especialista medico.
  *
- * @author devor
+ * @author dylan
  */
 public class Especialista {
 

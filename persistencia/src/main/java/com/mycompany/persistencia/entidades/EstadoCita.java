@@ -7,7 +7,7 @@ package com.mycompany.persistencia.entidades;
 /**
  * Enumeracion que representa los posibles estados de una cita medica.
  *
- * @author devor
+ * @author dylan
  */
 public enum EstadoCita {
     PENDIENTE,
