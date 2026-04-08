@@ -14,7 +14,7 @@ import java.util.List;
  * Implementacion en memoria del acceso a datos.
  * Simula almacenamiento usando listas con datos precargados.
  *
- * @author devor
+ * @author dylan
  */
 public class AccesoDatos implements IAccesoDatos {
 
