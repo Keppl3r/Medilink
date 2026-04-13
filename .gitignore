@@ -1,11 +1,25 @@
-target/
+# --- JAVA & MAVEN ---
+# Ignorar archivos compilados (la basura pesada)
+**/target/
+**/build/
+**/dist/
 *.class
 *.jar
-*.log
+*.war
+
+# --- NETBEANS ---
+# Ignorar configuraciones locales que bloquean proyectos
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+nb-configuration.xml
+.netbeans/
+
+# --- IDEs EXTRAS (Por si alguien usa VS Code o IntelliJ) ---
+.vscode/
 .idea/
 *.iml
-.settings/
-.project
-.classpath
-nb-configuration.xml
-nbactions.xml
+
+# --- SISTEMA OPERATIVO ---
+.DS_Store
+Thumbs.db
